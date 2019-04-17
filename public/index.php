@@ -1,4 +1,9 @@
 <?php
+/**
+ * Création Yavuz KUTUK
+ * yavuz@wildcodeschool.fr
+ *
+ */
 require '../vendor/autoload.php';
 require '../src/Api.php';
 require '../src/Collection.php';
