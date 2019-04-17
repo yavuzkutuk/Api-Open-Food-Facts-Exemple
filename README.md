@@ -16,15 +16,21 @@ PHP API Wrapper for [Open Food Facts](https://openfoodfacts.org/), the open data
   
 ## Installation
 
-With Composer:
-
+With Git:
 ```bash
 git clone https://github.com/KYavuz/Api-Open-Food-Facts-Exemple nomDepot
-composer install
-composer require openfoodfacts/php-client
-php -S localhost:8000 -t public
+With Composer:
 ```
 
+```bash
+composer install
+composer require openfoodfacts/php-client
+```
+
+## Lancement projet
+```php
+php -S localhost:8000 -t public
+```
 ## Usage
 Is possible using API without Wrapper.
 ```php
