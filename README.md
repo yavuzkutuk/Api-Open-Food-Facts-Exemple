@@ -22,12 +22,12 @@ With Composer:
 git clone https://github.com/KYavuz/Api-Open-Food-Facts-Exemple nomDepot
 composer install
 composer require openfoodfacts/php-client
+php -S localhost:8000 -t public
 ```
 
 ## Usage
 Is possible using API without Wrapper.
 ```php
-php -S localhost:8000 -t public
 $api = new OpenFoodFacts\Api('food','fr-en',$log);
 $prd = $api->getProduct('3057640385148');
 ```
