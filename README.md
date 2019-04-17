@@ -21,7 +21,7 @@ With Git:
 git clone https://github.com/KYavuz/Api-Open-Food-Facts-Exemple nomDepot
 With Composer:
 ```
-
+With Composer:
 ```bash
 composer install
 composer require openfoodfacts/php-client
