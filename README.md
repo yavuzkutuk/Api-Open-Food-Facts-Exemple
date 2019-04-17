@@ -13,23 +13,16 @@ PHP API Wrapper for [Open Food Facts](https://openfoodfacts.org/), the open data
 With Composer:
 
 ```bash
+composer install
 composer require openfoodfacts/php-client
 ```
 
 ## Usage
 Is possible using API without Wrapper.
 ```php
+php -S localhost:8000 -t public
 $api = new OpenFoodFacts\Api('food','fr-en',$log);
 $prd = $api->getProduct('3057640385148');
 ```
 
-## Development
 
-
-## Contributing
-
-1. Fork it ( https://github.com/openfoodfacts/openfoodfacts-php/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
