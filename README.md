@@ -8,11 +8,18 @@ PHP API Wrapper for [Open Food Facts](https://openfoodfacts.org/), the open data
 [![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/openfoodfacts/openfoodfacts-php.svg)](https://isitmaintained.com/project/openfoodfacts/openfoodfacts-php "Average time to resolve an issue")
 [![Percentage of issues still open](https://isitmaintained.com/badge/open/openfoodfacts/openfoodfacts-php.svg)](https://isitmaintained.com/project/openfoodfacts/openfoodfacts-php "Percentage of issues still open")
 
+
+## Requirements
+
+  * Php ^7.2    http://php.net/manual/fr/install.php;
+  * Composer    https://getcomposer.org/download/;
+  
 ## Installation
 
 With Composer:
 
 ```bash
+git clone https://github.com/KYavuz/Api-Open-Food-Facts-Exemple nomDepot
 composer install
 composer require openfoodfacts/php-client
 ```
